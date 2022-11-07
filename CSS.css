@@ -1,1 +1,208 @@
+body{
+    background-color: #000000;
+    font-family: Helvetica;
+    color: #C8CCD1;
+    display: flex;
+    flex-wrap: wrap;
+}
 
+body::-webkit-scrollbar {
+    width: 12px;               /* width of the entire scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: #111111;        /* color of the tracking area */
+  }
+  
+  body::-webkit-scrollbar-thumb{
+    background-color: #3b3b3b;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 3px solid #C8CCD1;  /* creates padding around scroll thumb */
+  }
+  
+  .MAIN{
+      padding: 10px;
+      justify-content: center;
+      display: flex;
+    flex-direction: column;
+}
+
+.FOTO{
+    text-align: center;
+    padding: 10px;
+}
+
+.Hello{
+    position: relative;
+    font-family: 'Courier New';
+    color: #C8CCD1;
+    font-size: 500%;
+}
+
+.foto{
+    justify-content: center;
+    position: relative;
+    width: 15%;
+    border-radius: 50%;
+}
+
+.linkedin{
+    justify-content: center;
+    display: flex;
+}
+
+.link{
+    text-align: center;
+}
+
+.In{
+    position: relative;
+    width: 10%;
+    cursor: pointer;
+    border: 0px solid #FFFFFF;
+    background-color: #FFFFFF;
+    border-radius: 10%;
+}
+
+span, .Hello{
+    justify-content: center;
+    text-align: center;
+}
+
+.Info{
+    font-size: 130%;
+    justify-content: center;
+    text-align: center;
+    margin: 0 15%;
+}
+
+.Structure{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 120px;
+    margin-top: 80px;
+    border-radius: 1%;
+    border: 20px solid #111111;
+    background-color: #111111;
+}
+
+.container_2{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    flex: auto;
+}
+
+.Services{
+    margin: 20px;
+}
+
+.img-services{
+    width: 60px;
+}
+
+.p-services{
+    margin: 5px 20px;
+}
+
+.sub_container_1{
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    /* place-content: center;
+    place-items: center; */
+    justify-content: space-between;
+    flex: auto;
+}
+.sub_container_2{
+    /* display: flex;
+    flex-wrap: wrap; */
+    padding: 20px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-between;
+    flex: auto;
+}
+
+.Services, p{
+    margin: 20px;
+}
+
+.Formation{
+    margin: 20px;
+    position: relative;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+    justify-content: space-between;
+}
+
+.Education{
+    position: relative;
+    width: 390px;
+    height: 600px;
+    margin: 0px 50px;
+    flex-direction: column;
+    display: flex;
+}
+
+.title-education{
+    left: 40px;
+    position: relative;
+    font-family: 'Courier New';
+    color: #C8CCD1;
+    font-size: 300%;
+}
+
+.Education-MC{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    display: flex;
+    flex: auto;
+    justify-content: space-between;
+}
+
+.img-formation{
+    width:  100px;
+}
+
+.Experience{
+    width: 390px;
+    height: 600px;
+    margin: 0px 50px;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+}
+
+.Experiencia{
+    text-align: center;
+    margin: 40px;
+    border-radius: 1%;
+    border: 10px solid #3b3b3b;
+    background-color: #3b3b3b;
+    
+}
+
+.container{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex: auto;
+    padding: 30px;
+}
+
+.Imagen{
+    width: 200px;
+}
